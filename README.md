@@ -1,7 +1,9 @@
 # project-management-spec
 This is a spec document for the project management tool that is my base project for each new language or framework or tool I learn.
 
-I will consider this complete when all models are implemented as described. This will be a basis for learning a new language by creating and debugging the most common build scenarios.
+The focus will not be on HTML or CSS. I will attempt to use the same static template for all of the projects I use to make learning the important pieces of the new language the focus of this exercise. I will consider this complete when all models are implemented as described. This will be a basis for learning a new language by creating and debugging the most common build scenarios.
+
+I plan to include a Vagrantfile with each project to more easily facilitate development on each project in the future.
 
 Tests are secondary but will definitely solidify my confidence with any language I take a stab at.
 
