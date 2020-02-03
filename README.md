@@ -19,6 +19,10 @@ This is a spec document for the project management tool that is my base project 
 - Login
 - Forgot Password
 - Reset Password
+#### User Fields
+- ID
+- email
+- password
 
 ## Project Section
 - Project List
@@ -34,6 +38,8 @@ This is a spec document for the project management tool that is my base project 
 - Private Info (passwords, logins, etc.)
 - Files (File Uploads)
 - Server (FK)
+- User (FK)
+- Status (FK)
 
 ## Client Section
 - Client List
@@ -47,6 +53,8 @@ This is a spec document for the project management tool that is my base project 
 - Contact Email
 - Contact Phone
 - Comments (FK)
+- User (FK)
+- Status (FK)
 
 ## Task Section
 - Task List
@@ -61,6 +69,8 @@ This is a spec document for the project management tool that is my base project 
 - Start Date
 - Due Date
 - Comments(FK)
+- User (FK)
+- Status (FK)
 
 ## Server Section
 - Server List
@@ -75,5 +85,16 @@ This is a spec document for the project management tool that is my base project 
 - Public IP
 - Monthly Cost
 - Size (CPUs, RAM, Disk Space, etc.)
+- User (FK)
+- Status (FK)
 
+## Additional Related Models
+#### Comment Model
+- ID
+- User
+- Text
 
+#### Status Model
+- ID
+- Name
+- Slug
