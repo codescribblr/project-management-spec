@@ -1,5 +1,9 @@
 # project-management-spec
-This is a spec document for the project management tool that is my base project for each new language/platform/framework/tool I learn.
+This is a spec document for the project management tool that is my base project for each new language or framework or tool I learn.
+
+I will consider this complete when all models are implemented as described. This will be a basis for learning a new language by creating and debugging the most common build scenarios.
+
+Tests are secondary but will definitely solidify my confidence with any language I take a stab at.
 
 ---
 
