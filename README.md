@@ -5,7 +5,7 @@ This is a spec document for the project management tool that is my base project 
 
 # Basic Project Layout
 - Home page
-- Login page
+- Login pages
 
 # Login Sections
 - Projects
@@ -14,12 +14,18 @@ This is a spec document for the project management tool that is my base project 
 - Servers
 - Comments
 
-# Project Section
+## User Section
+- Signup
+- Login
+- Forgot Password
+- Reset Password
+
+## Project Section
 - Project List
 - Project Create
 - Project Edit
 - Project Delete
-## Project Fields
+#### Project Fields
 - ID
 - Name
 - Client (FK)
@@ -29,12 +35,12 @@ This is a spec document for the project management tool that is my base project 
 - Files (File Uploads)
 - Server (FK)
 
-# Client Section
+## Client Section
 - Client List
 - Client Create
 - Client Edit
 - Client Delete
-## Client Fields
+#### Client Fields
 - ID
 - Name
 - Contact Name
@@ -42,12 +48,12 @@ This is a spec document for the project management tool that is my base project 
 - Contact Phone
 - Comments (FK)
 
-# Task Section
+## Task Section
 - Task List
 - Task Create
 - Task Edit
 - Task Delete
-## Task Fields
+#### Task Fields
 - ID
 - Name
 - Project (FK)
@@ -56,12 +62,12 @@ This is a spec document for the project management tool that is my base project 
 - Due Date
 - Comments(FK)
 
-# Server Section
+## Server Section
 - Server List
 - Server Create
 - Server Edit
 - Server Delete
-## Server Fields
+#### Server Fields
 - ID
 - Hostname
 - Platform (DO, AWS, etc.)
