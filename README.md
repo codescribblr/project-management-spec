@@ -101,5 +101,5 @@ The intent is to spend somewhere in the ballpark of 40 hours for each project, g
 - User
 - Text
 
-[https://github.com/codescribblr/project-manager-html] Project HTML Base
+[Project HTML Base](https://github.com/codescribblr/project-manager-html)
 
