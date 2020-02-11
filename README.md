@@ -20,7 +20,6 @@ The intent is to spend somewhere in the ballpark of 40 hours for each project, g
 - Clients
 - Tasks
 - Servers
-- Comments
 
 ## User Section
 - Signup
@@ -42,12 +41,12 @@ The intent is to spend somewhere in the ballpark of 40 hours for each project, g
 - Name
 - Client (FK)
 - Description
-- Comments (FK)
+- Notes (FK)
 - Private Info (passwords, logins, etc.)
 - Files (File Uploads)
 - Server (FK)
 - User (FK)
-- Status (FK)
+- Status
 
 ## Client Section
 - Client List
@@ -60,9 +59,9 @@ The intent is to spend somewhere in the ballpark of 40 hours for each project, g
 - Contact Name
 - Contact Email
 - Contact Phone
-- Comments (FK)
+- Notes (FK)
 - User (FK)
-- Status (FK)
+- Status
 
 ## Task Section
 - Task List
@@ -76,9 +75,9 @@ The intent is to spend somewhere in the ballpark of 40 hours for each project, g
 - Description
 - Start Date
 - Due Date
-- Comments(FK)
+- Notes (FK)
 - User (FK)
-- Status (FK)
+- Status
 
 ## Server Section
 - Server List
@@ -93,16 +92,14 @@ The intent is to spend somewhere in the ballpark of 40 hours for each project, g
 - Public IP
 - Monthly Cost
 - Size (CPUs, RAM, Disk Space, etc.)
+- Notes (FK)
 - User (FK)
-- Status (FK)
 
 ## Additional Related Models
-#### Comment Model
+#### Comment Model - One Model for each Major Model except Users
 - ID
 - User
 - Text
 
-#### Status Model
-- ID
-- Name
-- Slug
+[https://github.com/codescribblr/project-manager-html]Project HTML Base
+
