@@ -9,6 +9,8 @@ Tests are secondary but will definitely solidify my confidence with any language
 
 The intent is to spend somewhere in the ballpark of 40 hours for each project, giving enough time to become familiar with most major concepts and significant debugging while keeping the project managable and not overwhelming.
 
+[Project HTML Base](https://github.com/codescribblr/project-manager-html)
+
 ---
 
 # Basic Project Layout
@@ -100,6 +102,3 @@ The intent is to spend somewhere in the ballpark of 40 hours for each project, g
 - ID
 - User
 - Text
-
-[Project HTML Base](https://github.com/codescribblr/project-manager-html)
-
